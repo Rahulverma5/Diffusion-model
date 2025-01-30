@@ -31,7 +31,7 @@ To train the model, run:
 python main.py
 ```
 ## Project Structure
-
+```
 diffusion-model/
 ├── configs/
 │   └── config.py          # Configuration file
@@ -47,7 +47,7 @@ diffusion-model/
 ├── main.py                # Main script to run the training
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-
+```
 
 
 ## Acknowledgements
