@@ -29,8 +29,9 @@ This project implements a diffusion model from scratch using TensorFlow. The mod
 To train the model, run:
 ```sh
 python main.py
-
+```
 ## Project Structure
+
 diffusion-model/
 ├── configs/
 │   └── config.py          # Configuration file
@@ -47,16 +48,7 @@ diffusion-model/
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 
-Training
-The training script is located in training/train.py. It uses the U-Net model defined in models/unet.py and the MNIST dataset loaded from data/load_data.py.
 
-To start training, simply run:
 
-Sampling
-The sampling script is located in training/sample.py. It generates samples from the trained diffusion model.
-
-Configuration
-The configuration file is located in configs/config.py. It contains parameters such as image size, batch size, and the number of timesteps.
-
-Acknowledgements
-This project is inspired by various research papers and tutorials on diffusion models and U-Net architectures.
+## Acknowledgements
+This work is a part of the coursework AI3603 Computer Vision in IIT Hyderabad.
